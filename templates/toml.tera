@@ -1,0 +1,93 @@
+---
+whiskers:
+  version: "^2.8.0"
+  matrix:
+    - flavor
+  filename: "dist/catppuccin-{{ flavor.identifier }}.toml"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+---
+[colors]
+ansi = [
+  '{{ surface1.hex }}',
+  '{{ red.hex }}',
+  '{{ green.hex }}',
+  '{{ yellow.hex }}',
+  '{{ blue.hex }}',
+  '{{ pink.hex }}',
+  '{{ teal.hex }}',
+  '{{ subtext1.hex }}',
+]
+background = '{{ base.hex }}'
+brights = [
+  '{{ surface2.hex }}',
+  '{{ red.hex }}',
+  '{{ green.hex }}',
+  '{{ yellow.hex }}',
+  '{{ blue.hex }}',
+  '{{ pink.hex }}',
+  '{{ teal.hex }}',
+  '{{ subtext0.hex }}',
+]
+compose_cursor = '{{ flamingo.hex }}'
+cursor_bg = '{{ rosewater.hex }}'
+cursor_border = '{{ rosewater.hex }}'
+cursor_fg = '{{ crust.hex }}'
+foreground = '{{ text.hex }}'
+scrollbar_thumb = '{{ surface2.hex }}'
+selection_bg = '{{ surface2.hex }}'
+selection_fg = '{{ text.hex }}'
+split = '{{ overlay0.hex }}'
+visual_bell = '{{ surface0.hex }}'
+
+[colors.indexed]
+16 = '{{ peach.hex }}'
+17 = '{{ rosewater.hex }}'
+
+[colors.tab_bar]
+background = '{{ crust.hex }}'
+inactive_tab_edge = '{{ surface0.hex }}'
+
+[colors.tab_bar.active_tab]
+bg_color = '{{ mauve.hex }}'
+fg_color = '{{ crust.hex }}'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab]
+bg_color = '{{ mantle.hex }}'
+fg_color = '{{ text.hex }}'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = '{{ base.hex }}'
+fg_color = '{{ text.hex }}'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab]
+bg_color = '{{ surface0.hex }}'
+fg_color = '{{ text.hex }}'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab_hover]
+bg_color = '{{ surface1.hex }}'
+fg_color = '{{ text.hex }}'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[metadata]
+aliases = []
+author = 'Catppuccin Org'
+name = 'Catppuccin {{ flavor.name }}'
