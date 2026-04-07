@@ -8,25 +8,25 @@ whiskers:
 ---
 [colors]
 ansi = [
-  '{{ self::rgb(col=flavor.ansi_colors.black) }}',
-  '{{ self::rgb(col=flavor.ansi_colors.red) }}',
-  '{{ self::rgb(col=flavor.ansi_colors.green) }}',
-  '{{ self::rgb(col=flavor.ansi_colors.yellow) }}',
-  '{{ self::rgb(col=flavor.ansi_colors.blue) }}',
-  '{{ self::rgb(col=flavor.ansi_colors.magenta) }}',
-  '{{ self::rgb(col=flavor.ansi_colors.cyan) }}',
-  '{{ self::rgb(col=flavor.ansi_colors.white) }}',
+  '{{ flavor.ansi_colors.black.hex }}',
+  '{{ flavor.ansi_colors.red.hex }}',
+  '{{ flavor.ansi_colors.green.hex }}',
+  '{{ flavor.ansi_colors.yellow.hex }}',
+  '{{ flavor.ansi_colors.blue.hex }}',
+  '{{ flavor.ansi_colors.magenta.hex }}',
+  '{{ flavor.ansi_colors.cyan.hex }}',
+  '{{ flavor.ansi_colors.white.hex }}',
 ]
 background = '{{ base.hex }}'
 brights = [
-  '{{ self::rgb(col=flavor.ansi_colors.bright_black) }}',
-  '{{ self::rgb(col=flavor.ansi_colors.bright_red) }}',
-  '{{ self::rgb(col=flavor.ansi_colors.bright_green) }}',
-  '{{ self::rgb(col=flavor.ansi_colors.bright_yellow) }}',
-  '{{ self::rgb(col=flavor.ansi_colors.bright_blue) }}',
-  '{{ self::rgb(col=flavor.ansi_colors.bright_magenta) }}',
-  '{{ self::rgb(col=flavor.ansi_colors.bright_cyan) }}',
-  '{{ self::rgb(col=flavor.ansi_colors.bright_white) }}',
+  '{{ flavor.ansi_colors.bright_black.hex }}',
+  '{{ flavor.ansi_colors.bright_red.hex }}',
+  '{{ flavor.ansi_colors.bright_green.hex }}',
+  '{{ flavor.ansi_colors.bright_yellow.hex }}',
+  '{{ flavor.ansi_colors.bright_blue.hex }}',
+  '{{ flavor.ansi_colors.bright_magenta.hex }}',
+  '{{ flavor.ansi_colors.bright_cyan.hex }}',
+  '{{ flavor.ansi_colors.bright_white.hex }}',
 ]
 compose_cursor = '{{ flamingo.hex }}'
 cursor_bg = '{{ rosewater.hex }}'

@@ -7,18 +7,18 @@ ansi = [
   '#89b4fa',
   '#f5c2e7',
   '#94e2d5',
-  '#bac2de',
+  '#a6adc8',
 ]
 background = '#1e1e2e'
 brights = [
   '#585b70',
-  '#f38ba8',
-  '#a6e3a1',
-  '#f9e2af',
-  '#89b4fa',
-  '#f5c2e7',
-  '#94e2d5',
-  '#a6adc8',
+  '#f37799',
+  '#89d88b',
+  '#ebd391',
+  '#74a8fc',
+  '#f2aede',
+  '#6bd7ca',
+  '#bac2de',
 ]
 compose_cursor = '#f2cdcd'
 cursor_bg = '#f5e0dc'
