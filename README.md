@@ -17,7 +17,8 @@
 
 ## Usage
 
-Catppuccin is now [included in WezTerm](https://wezfurlong.org/wezterm/colorschemes/c/index.html#catppuccin-frappe).
+Catppuccin is now
+[included in WezTerm](https://wezfurlong.org/wezterm/colorschemes/c/index.html#catppuccin-frappe).
 
 1. Edit your `wezterm.lua`.
 2. Set `color_scheme` to your preferred flavor.
@@ -51,8 +52,7 @@ return {
 
 ## 🙋 FAQ
 
-- Q: **_"How can I set custom color overrides?"_**
-  \
+- Q: **_"How can I set custom color overrides?"_**\
   A: Use
   [`wezterm.color.get_builtin_schemes()`](https://wezfurlong.org/wezterm/config/lua/wezterm.color/get_builtin_schemes.html)
   like this:
@@ -80,6 +80,8 @@ return {
 - [LudoPinelli](https://github.com/LudoPinelli)
 - [winston](https://github.com/nekowinston)
 - [wez](https://github.com/wez)
+- [scarcekoi](https://github.com/scarcekoi)
+- [Toria](https://github.com/ninetailedtori)
 
 &nbsp;
 
